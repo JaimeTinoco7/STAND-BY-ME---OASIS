@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stand by Me - Oasis</title>
+  <!-- Vincula el CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Video de fondo -->
+  <video autoplay muted loop id="background-video">
+    <source src="stand_by_me.mp4" type="video/mp4">
+    Tu navegador no soporta videos en HTML5.
+  </video>
+  
+  <!-- Botón para activar/desactivar el sonido del fondo -->
+  <button id="toggle-sound">Activar Sonido 🔊</button>
+  
+  <header>
+    <h1>Stand by Me - Oasis</h1>
+  </header>
+  
+  <main class="content">
+    <!-- Sección multimedia y letra -->
+    <section class="intro">
+      <div class="intro-container">
+        <!-- Contenedor de imagen (por ejemplo, la portada de la canción) -->
+        <div class="media-container" id="media-container">
+          <img id="media-image" src="STAND_BY_ME.jpeg" alt="Portada de Stand by Me" class="media-image">
+        </div>
+        <!-- Contenedor para la letra, que se cargará dinámicamente desde stand_by_me.lrc -->
+        <div class="lyrics-container" id="lyrics-container">
+          <p class="lyric-line">Cargando letra...</p>
+        </div>
+      </div>
+      <p>
+        <strong>Stand by Me</strong> es una canción de Oasis lanzada en 1997 como parte del álbum 
+        <em>Be Here Now</em>. Su versión, que rinde homenaje al clásico de Ben E. King, destaca por la 
+        intensidad y emoción que caracteriza a la banda.
+      </p>
+    </section>
+    
+    <!-- Sección: Historia de la Canción -->
+    <section class="historia">
+      <h2>Historia de la Canción</h2>
+      <p>
+        Inspirada en el famoso tema de Ben E. King, la interpretación de Oasis aporta un toque único y 
+        melancólico. Grabada en medio de la euforia creativa de los años 90, esta versión refleja la 
+        evolución musical de la banda y su capacidad para reinventar clásicos.
+      </p>
+    </section>
+    
+    <!-- Sección: Curiosidades -->
+    <section class="curiosidades">
+      <h2>Curiosidades</h2>
+      <ul>
+        <li>La canción fue grabada en un solo día, capturando la energía y espontaneidad de la banda.</li>
+        <li>La versión de Oasis combina elementos del rock británico con matices soul, dándole un aire fresco al clásico.</li>
+        <li>Algunos críticos destacan esta interpretación como una de las más auténticas y apasionadas del grupo.</li>
+      </ul>
+    </section>
+    
+    <!-- Sección: Créditos -->
+    <section class="creditos">
+      <h2>Créditos</h2>
+      <p>
+        <strong>Composición:</strong> Oasis<br>
+        <strong>Producción:</strong> Oasis y productores invitados<br>
+        <strong>Álbum:</strong> Be Here Now (1997)
+      </p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>© 2025 Página dedicada a Oasis</p>
+  </footer>
+  
+  <!-- Inclusión del script para sincronizar la letra -->
+  <script src="script.js"></script>
+</body>
+</html>
